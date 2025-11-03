@@ -9,4 +9,13 @@ header {
     height: 10vh;
     justify-content: space-around;
     align-items: center;
+
+
+    nav {
+        height: 10vh;
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
