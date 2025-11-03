@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
