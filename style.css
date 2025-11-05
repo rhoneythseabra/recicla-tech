@@ -16,4 +16,37 @@ header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.produtosDisponiveis {
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+  align-items: center;
+}
+.produtosDisponiveis article {
+  border: solid #16a34a;
+  border-radius: 30px 30px 30px 30px;
+  width: 18%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.produtosDisponiveis article img {
+  width: 100%;
+  border-radius: 30px 30px;
+}
+.produtosDisponiveis article button {
+  margin-bottom: 2rem;
+  width: 60%;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #16a34a;
+  color: #FFFFFF;
+}
+.produtosDisponiveis article p {
+  width: 90%;
 }/*# sourceMappingURL=style.css.map */
