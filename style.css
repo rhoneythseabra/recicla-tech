@@ -18,7 +18,43 @@ header nav {
   align-items: center;
 }
 header a {
+  color: #4b5563;
   text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.apresentacao {
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.botaoVerde {
+  background-color: #16a34a;
+  color: #FFFFFF;
+  width: 35%;
+  height: 60px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  border: none;
+}
+.botaoVerde .botaoVerde:hover {
+  background-color: darkgreen;
+}
+
+.caixaLogo {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+}
+.caixaLogo h1 {
+  color: #1F2937;
+  font-family: 2.5rem;
 }
 
 .produtosDisponiveis {
