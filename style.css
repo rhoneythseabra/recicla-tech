@@ -43,9 +43,6 @@ header a {
   cursor: pointer;
   border: none;
 }
-.botaoVerde .botaoVerde:hover {
-  background-color: darkgreen;
-}
 
 .caixaLogo {
   display: flex;
@@ -81,11 +78,39 @@ header a {
   margin-bottom: 2rem;
   width: 60%;
   padding: 1rem;
-  border-radius: 30px;
+  border-radius: 20px;
   border: none;
   background-color: #16a34a;
   color: #FFFFFF;
 }
 .produtosDisponiveis article p {
   width: 90%;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 15vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  header nav {
+    width: 90%;
+  }
+  header nav a {
+    font-size: 1rem;
+  }
+  .caixaLogo {
+    width: 55%;
+  }
+  .caixaLogo h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .produtosDisponiveis {
+    flex-direction: column;
+  }
+  article {
+    width: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */
