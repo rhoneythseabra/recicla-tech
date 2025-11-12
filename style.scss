@@ -28,12 +28,38 @@ header {
     }
 }
 
-.apresentacao {
-    height: 50vh;
-    width: 50%;
+.primeiraSection {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
+    height: 70vh;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        h2 {
+            font-size: 3.75rem;
+            width: 60%;
+        }
+
+        p {
+            font-size: 1.25rem;
+        }
+        
+    }
+}  
+
+.botoesPrimeiraSection {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        padding: 30px 40px;
+        cursor: pointer;
+        border-radius: 6px;
+    }
 }
 
 .botaoVerde{
@@ -61,6 +87,9 @@ header {
             font-family: 2.5rem;
         }
     }
+
+
+
 
 .produtosDisponiveis {
 

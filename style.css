@@ -23,12 +23,33 @@ header a {
   font-size: 1.5rem;
 }
 
-.apresentacao {
-  height: 50vh;
-  width: 50%;
+.primeiraSection {
+  display: flex;
+  justify-content: space-around;
+  height: 70vh;
+}
+.primeiraSection section {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+.primeiraSection section h2 {
+  font-size: 3.75rem;
+  width: 60%;
+}
+.primeiraSection section p {
+  font-size: 1.25rem;
+}
+
+.botoesPrimeiraSection {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.botoesPrimeiraSection button {
+  padding: 30px 40px;
+  cursor: pointer;
+  border-radius: 6px;
 }
 
 .botaoVerde {
